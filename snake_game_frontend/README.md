@@ -1,5 +1,14 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Build Troubleshooting
+
+If you see build errors about missing .next/server/middleware-manifest.json, run this command from the project root to force a clean build:
+
+```bash
+rm -rf .next
+npm run build
+```
+
 ## Getting Started
 
 First, run the development server:
